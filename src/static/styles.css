@@ -199,6 +199,22 @@ footer {
   color: #333;
 }
 
+/* Delete/unregister button shown next to each participant */
+.participant-delete {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px;
+  margin-left: auto;
+  border-radius: 4px;
+}
+
+.participant-delete:hover {
+  background: rgba(198, 40, 40, 0.06);
+}
+
 .no-participants {
   font-style: italic;
   color: #666;
